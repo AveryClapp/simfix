@@ -83,4 +83,4 @@ Run benchmarks:
 
 ## License
 
-MIT
+GNU
