@@ -57,7 +57,7 @@ Early development. Not production ready.
 ## Building
 
 ```sh
-git clone https://github.com/averyw/simfix
+git clone https://github.com/AveryClapp/simfix
 cd simfix
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
