@@ -4,19 +4,6 @@ A modern C++ FIX/FAST protocol library built for the wire. Zero heap allocation 
 
 ---
 
-## The problem
-
-Every serious FIX library in existence makes at least one of the following mistakes:
-
-- Allocates on every message (QuickFIX)
-- Punts on session management entirely (hffix)
-- Doesn't compile past C++03 without warnings
-- Has no benchmark harness, so you have no idea how fast it actually is
-
-simfix fixes all of them.
-
----
-
 ## Design principles
 
 **Zero allocation on the hot path.** Messages are parsed directly from I/O buffers. No intermediate objects. No heap. Stack only.
